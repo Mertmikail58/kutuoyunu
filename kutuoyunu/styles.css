@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Segoe UI font family */
+}
+
+.title {
+    text-align: center; /* Başlık ortada */
+}
+
+.container {
+    max-width: 500px; /* 5 kutuyu yan yana sığdırmak için maksimum genişlik ayarla */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(20% - 10px); /* Her satırda maksimum 5 kutu olduğunda 20% genişlik */
+    height: 90px;
+    margin: 5px;
+    background-color: #87CEEB; /* Açık mavi renk */
+    cursor: pointer;
+    border-radius: 10px; /* Border yuvarlaklığı */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-content {
+    text-align: center;
+    width: 100%;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
